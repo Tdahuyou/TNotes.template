@@ -9,18 +9,18 @@
 
 :::
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 💻 如何完成 TNotes 的 git log 清理](#3--如何完成-tnotes-的-git-log-清理)
-- [4. 🤔 这种做法会影响到仓库中已有的 Discussions 和 Issues 吗？](#4--这种做法会影响到仓库中已有的-discussions-和-issues-吗)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何完成 TNotes 的 git log 清理](#3-如何完成-tnotes-的-git-log-清理)
+- [4. 这种做法会影响到仓库中已有的 Discussions 和 Issues 吗？](#4-这种做法会影响到仓库中已有的-discussions-和-issues-吗)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - git log 清理
 
-## 2. 🫧 评价
+## 2. 评价
 
 随着 TNotes 的不断迭代，commit 会不断递增，如果不打算保留历史的 commit，可通过重写 git log 来清理 commit。
 
@@ -35,7 +35,7 @@
 
 :::
 
-## 3. 💻 如何完成 TNotes 的 git log 清理
+## 3. 如何完成 TNotes 的 git log 清理
 
 - **最终效果**：
   - 清理前：150 次 commit 历史……
@@ -74,7 +74,7 @@ git push -f origin main
 - 本地旧版的 old-repo 可以作为参考版本，如果这些历史的 commit 都不重要的话，直接删除即可。
 - 后续如果还要清理的话，按照这篇笔记中记录的流程再走一遍即可。
 
-## 4. 🤔 这种做法会影响到仓库中已有的 Discussions 和 Issues 吗？
+## 4. 这种做法会影响到仓库中已有的 Discussions 和 Issues 吗？
 
 - 刚才（现在时间 - 2025 年 1 月 24 日 00:05:02）拿 TNotes 实测了一波，上述记录的 Git 的 **历史清理操作** 主要影响的是代码仓库的 **提交历史（commits）** 和 **分支**。它不会影响 **Discussions**、**Issues**、**Pull Requests** 等数据。
 - **以下这些数据都不会有影响**：

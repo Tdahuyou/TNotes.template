@@ -2,22 +2,22 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 mermaid 组件如何使用？](#3--mermaid-组件如何使用)
-- [4. 🔗 引用](#4--引用)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. mermaid 组件如何使用？](#3-mermaid-组件如何使用)
+- [4. 引用](#4-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - Mermaid 组件的基本使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 vitepress 默认是不带有 mermaid 支持的，但是又经常有绘制图表的需求，因此集成了 mermaid 功能。
 
-## 3. 🤔 mermaid 组件如何使用？
+## 3. mermaid 组件如何使用？
 
 和 [mermaid][1] 要求的语法一致。
 
@@ -41,7 +41,7 @@ flowchart LR
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-11-03-00-27-44.png)
 
-## 4. 🔗 引用
+## 4. 引用
 
 - [mermaid.org 官方文档][1]
 

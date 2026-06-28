@@ -2,30 +2,30 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 core 是指？](#3--core-是指)
-- [4. 🤔 core 开发的基本流程是？](#4--core-开发的基本流程是)
-- [5. 🤔 开发环境和生产环境如何切换？](#5--开发环境和生产环境如何切换)
-- [6. 🤔 core 的版本号 `major.minor.patch` 更新机制是？](#6--core-的版本号-majorminorpatch-更新机制是)
-- [7. 🤔 core 的发版流程是？](#7--core-的发版流程是)
-- [8. 🔗 引用](#8--引用)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. core 是指？](#3-core-是指)
+- [4. core 开发的基本流程是？](#4-core-开发的基本流程是)
+- [5. 开发环境和生产环境如何切换？](#5-开发环境和生产环境如何切换)
+- [6. core 的版本号 `major.minor.patch` 更新机制是？](#6-core-的版本号-majorminorpatch-更新机制是)
+- [7. core 的发版流程是？](#7-core-的发版流程是)
+- [8. 引用](#8-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - core 开发工作流
 
-## 2. 🫧 评价
+## 2. 评价
 
 该笔记主要用于记录和 core 开发工作流相关的一些内容。
 
-## 3. 🤔 core 是指？
+## 3. core 是指？
 
 这里所说的 core 是指 @tnotesjs/core 这个 NPM 包，它是 TNotes.xxx 知识库的核心依赖。
 
-## 4. 🤔 core 开发的基本流程是？
+## 4. core 开发的基本流程是？
 
 ```bash
 # 克隆 core 仓库
@@ -47,13 +47,13 @@ cd ../TNotes.introduction
 pnpm link ../core
 ```
 
-## 5. 🤔 开发环境和生产环境如何切换？
+## 5. 开发环境和生产环境如何切换？
 
 - 开发环境（走本地 link）：在宿主仓库中执行 `pnpm link ../core`，`node_modules/@tnotesjs/core` 指向本地 core 目录，改动实时生效（配合 `pnpm dev` 监听构建）。
 - 生产环境（走线上 npm 包）：`pnpm unlink @tnotesjs/core && pnpm install`，恢复为从 npm registry 安装的版本。
 - CI/CD 环境：直接 `pnpm install`，不存在 link，天然走线上包。
 
-## 6. 🤔 core 的版本号 `major.minor.patch` 更新机制是？
+## 6. core 的版本号 `major.minor.patch` 更新机制是？
 
 核心判断标准：
 
@@ -68,7 +68,7 @@ pnpm link ../core
 - TNotes.xxx 需要改动代码适配：升级次版本号
 - TNotes.xxx 不需要改动代码适配：升级修订版本号
 
-## 7. 🤔 core 的发版流程是？
+## 7. core 的发版流程是？
 
 1. 编辑 `CHANGELOG.md`，在 `[Unreleased]` 下写入本次变更内容
 2. 提交变更：`git add -A && git commit -m "docs: 更新 CHANGELOG"`
@@ -85,7 +85,7 @@ pnpm link ../core
 - `git commit` + `git tag`
 - 交互确认后 `git push` + `npm publish`
 
-## 8. 🔗 引用
+## 8. 引用
 
 - [tnotesjs/core - github][1]
 - [tnotesjs/core - npm][2]

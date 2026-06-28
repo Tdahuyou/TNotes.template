@@ -2,34 +2,34 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 TNotes 是什么？](#3--tnotes-是什么)
-- [4. 🤔 TNotes 中的「知识库」、「笔记」指的是什么？](#4--tnotes-中的知识库笔记指的是什么)
-- [5. 🤔「知识库」基本结构是？](#5-知识库基本结构是)
-- [6. 🤔 TNotes 有什么用？](#6--tnotes-有什么用)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. TNotes 是什么？](#3-tnotes-是什么)
+- [4. TNotes 中的「知识库」、「笔记」指的是什么？](#4-tnotes-中的知识库笔记指的是什么)
+- [5. 「知识库」基本结构是？](#5-知识库基本结构是)
+- [6. TNotes 有什么用？](#6-tnotes-有什么用)
   - [6.1. 通过脚本来自动管理笔记](#61-通过脚本来自动管理笔记)
   - [6.2. 自定义组件，扩展 markdown 功能](#62-自定义组件扩展-markdown-功能)
   - [6.3. 自定义布局](#63-自定义布局)
   - [6.4. 评论功能](#64-评论功能)
-- [7. 🤔 TNotes 中「知识库」的类型及其之间的关系是？](#7--tnotes-中知识库的类型及其之间的关系是)
-- [8. 🤔 如何搜到 TNotes？](#8--如何搜到-tnotes)
-- [9. 🤔 TNotes 的 logo 是？](#9--tnotes-的-logo-是)
-- [10. 🔗 引用](#10--引用)
+- [7. TNotes 中「知识库」的类型及其之间的关系是？](#7-tnotes-中知识库的类型及其之间的关系是)
+- [8. 如何搜到 TNotes？](#8-如何搜到-tnotes)
+- [9. TNotes 的 logo 是？](#9-tnotes-的-logo-是)
+- [10. 引用](#10-引用)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - TNotes 简介
 
-## 2. 🫧 评价
+## 2. 评价
 
 对 TNotes 做一个简单的介绍。
 
 <N :ids="['0028', '0014', '0002']" />
 
-## 3. 🤔 TNotes 是什么？
+## 3. TNotes 是什么？
 
 <a href="https://tnotesjs.github.io/TNotes" target="_blank">
   <img src="https://tnotesjs.github.io/TNotes.introduction/logo.png" alt="foot print" title="TNotes logo" style="display: block; margin: auto; width: 50%;" />
@@ -41,12 +41,12 @@
 
 TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工具，在使用过程中会根据痛点不断完善。
 
-## 4. 🤔 TNotes 中的「知识库」、「笔记」指的是什么？
+## 4. TNotes 中的「知识库」、「笔记」指的是什么？
 
 - 「知识库」本质上就是一个简单的 git 仓库。
 - 「笔记」是在知识库的 notes 目录下存放着一系列从 `0001-9999` 为编号的目录。
 
-## 5. 🤔「知识库」基本结构是？
+## 5. 「知识库」基本结构是？
 
 - 这里以当前 `TNotes.introduction` 这个知识库为例，对其中的核心文件、目录做一个简单介绍：
 
@@ -66,7 +66,7 @@ TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工�
 # └── sidebar.json # vitepress 中的侧边栏目录的配置文件，由 TNotes 解析根目录下的 README.md 自动生成
 ```
 
-## 6. 🤔 TNotes 有什么用？
+## 6. TNotes 有什么用？
 
 ### 6.1. 通过脚本来自动管理笔记
 
@@ -91,7 +91,7 @@ TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工�
 
 利用 Giscus 集成了评论功能。
 
-## 7. 🤔 TNotes 中「知识库」的类型及其之间的关系是？
+## 7. TNotes 中「知识库」的类型及其之间的关系是？
 
 目前在 TNotes 中只有两种类型的知识库：「根知识库」和「子知识库」。
 
@@ -100,7 +100,7 @@ TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工�
 
 ![svg](./assets/1.svg)
 
-## 8. 🤔 如何搜到 TNotes？
+## 8. 如何搜到 TNotes？
 
 当前 TNotes 的地址：https://tnotesjs.github.io/TNotes/
 
@@ -114,7 +114,7 @@ TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工�
 
 :::
 
-## 9. 🤔 TNotes 的 logo 是？
+## 9. TNotes 的 logo 是？
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-19-14-40.png)
 
@@ -122,7 +122,7 @@ TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工�
 
 你可以在 TNotes.footprints 中记录的我的 2019 年的动态中看到那条朋友圈。
 
-## 10. 🔗 引用
+## 10. 引用
 
 - [TNotes 首页 - github pages][6]
 - [vitepress - github][1]
