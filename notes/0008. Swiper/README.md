@@ -1,4 +1,4 @@
-# [0008. Swiper](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0008.%20Swiper)
+# [0008. Swiper](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0008.%20Swiper)
 
 <!-- region:toc -->
 

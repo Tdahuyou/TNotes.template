@@ -1,4 +1,4 @@
-# [0020. build](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0020.%20build)
+# [0020. build](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0020.%20build)
 
 <!-- region:toc -->
 
@@ -22,7 +22,7 @@
 ```bash
 $ pnpm tn:build
 
-# > @ tn:build /Users/huyouda/tnotesjs/TNotes.introduction
+# > @ tn:build /Users/huyouda/tnotesjs/TNotes.docs
 # >                        tsx ./.vitepress/tnotes/index.ts --build
 
 # 🚀 [08:21:40.485] [build] 构建知识库
@@ -39,7 +39,7 @@ $ pnpm tn:build
 # Building [████████████████████████████████████░░░░]  90% | Transforms: 3084/3332 | Chunks: 95/94 | Time: 7.4s
 # Building [████████████████████████████████████████] 100% | Transforms: 3332/3332 | Chunks: 94/94 | Time: 7.7s
 # ✅ 构建成功！
-#    📁 输出目录: /Users/huyouda/tnotesjs/TNotes.introduction/.vitepress/dist
+#    📁 输出目录: /Users/huyouda/tnotesjs/TNotes.docs/.vitepress/dist
 #    ⏱️  耗时: 7.7s
 # ✅ [08:21:50.077] [build] 知识库构建完成
 # ✨ [08:21:50.077] [build] 命令执行耗时：9592 ms
@@ -62,7 +62,7 @@ $ pnpm tn:build
 ```bash
 $ pnpm tn:build
 
-# > @ tn:build /Users/huyouda/tnotesjs/TNotes.introduction
+# > @ tn:build /Users/huyouda/tnotesjs/TNotes.docs
 # >                        tsx ./.vitepress/tnotes/index.ts --build
 
 # 🚀 [08:22:41.740] [build] 构建知识库
@@ -70,13 +70,13 @@ $ pnpm tn:build
 # Building [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0% | Transforms: 1/3288 | Chunks: 0/94 | Time: 0.1s
 # build error:
 # Could not resolve "./assets/undefined.png" from "notes/0020. build/README.md"
-# file: /Users/huyouda/tnotesjs/TNotes.introduction/notes/0020. build/README.md
+# file: /Users/huyouda/tnotesjs/TNotes.docs/notes/0020. build/README.md
 # Could not resolve "./assets/undefined.png" from "notes/0020. build/README.md"
-# file: /Users/huyouda/tnotesjs/TNotes.introduction/notes/0020. build/README.md
-#     at getRollupError (file:///Users/huyouda/tnotesjs/TNotes.introduction/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
-#     at error (file:///Users/huyouda/tnotesjs/TNotes.introduction/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
-#     at ModuleLoader.handleInvalidResolvedId (file:///Users/huyouda/tnotesjs/TNotes.introduction/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/node-entry.js:21539:24)
-#     at file:///Users/huyouda/tnotesjs/TNotes.introduction/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/node-entry.js:21499:26
+# file: /Users/huyouda/tnotesjs/TNotes.docs/notes/0020. build/README.md
+#     at getRollupError (file:///Users/huyouda/tnotesjs/TNotes.docs/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+#     at error (file:///Users/huyouda/tnotesjs/TNotes.docs/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+#     at ModuleLoader.handleInvalidResolvedId (file:///Users/huyouda/tnotesjs/TNotes.docs/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/node-entry.js:21539:24)
+#     at file:///Users/huyouda/tnotesjs/TNotes.docs/node_modules/.pnpm/rollup@4.50.1/node_modules/rollup/dist/es/shared/node-entry.js:21499:26
 # ❌ Error
 # 错误信息：Command failed with code 1
 # ❌ Error

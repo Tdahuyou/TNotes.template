@@ -1,4 +1,4 @@
-# [0014. 分仓库模式](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0014.%20%E5%88%86%E4%BB%93%E5%BA%93%E6%A8%A1%E5%BC%8F)
+# [0014. 分仓库模式](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0014.%20%E5%88%86%E4%BB%93%E5%BA%93%E6%A8%A1%E5%BC%8F)
 
 <!-- region:toc -->
 

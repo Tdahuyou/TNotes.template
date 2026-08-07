@@ -1,4 +1,4 @@
-# [0028. TNotes 根知识库](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0028.%20TNotes%20%E6%A0%B9%E7%9F%A5%E8%AF%86%E5%BA%93)
+# [0028. TNotes 根知识库](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0028.%20TNotes%20%E6%A0%B9%E7%9F%A5%E8%AF%86%E5%BA%93)
 
 <!-- region:toc -->
 

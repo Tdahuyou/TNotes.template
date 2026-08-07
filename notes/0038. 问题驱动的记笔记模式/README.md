@@ -1,4 +1,4 @@
-# [0038. 问题驱动的记笔记模式](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0038.%20%E9%97%AE%E9%A2%98%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%AE%B0%E7%AC%94%E8%AE%B0%E6%A8%A1%E5%BC%8F)
+# [0038. 问题驱动的记笔记模式](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0038.%20%E9%97%AE%E9%A2%98%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%AE%B0%E7%AC%94%E8%AE%B0%E6%A8%A1%E5%BC%8F)
 
 <!-- region:toc -->
 

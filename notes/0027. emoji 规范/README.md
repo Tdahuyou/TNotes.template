@@ -1,4 +1,4 @@
-# [0027. emoji 规范](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0027.%20emoji%20%E8%A7%84%E8%8C%83)
+# [0027. emoji 规范](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0027.%20emoji%20%E8%A7%84%E8%8C%83)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0001. TNotes 简介](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0001.%20TNotes%20%E7%AE%80%E4%BB%8B)
+# [0001. TNotes 简介](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0001.%20TNotes%20%E7%AE%80%E4%BB%8B)
 
 <!-- region:toc -->
 
@@ -32,7 +32,7 @@
 ## 3. TNotes 是什么？
 
 <a href="https://tnotesjs.github.io/TNotes" target="_blank">
-  <img src="https://tnotesjs.github.io/TNotes.introduction/logo.png" alt="foot print" title="TNotes logo" style="display: block; margin: auto; width: 50%;" />
+  <img src="https://tnotesjs.github.io/TNotes.docs/logo.png" alt="foot print" title="TNotes logo" style="display: block; margin: auto; width: 50%;" />
 </a>
 
 [TNotes](https://tnotesjs.github.io/notes)（Tdahuyou の Notes） 是一个基于开源项目和免费工具（比如：[vitepress][1]、[github pages][2]、[giscus][3]、[markdown-it][4] ……）实现的一个用于快速搭建个人在线开源知识库的免费工具。
@@ -48,7 +48,7 @@ TNotes 诞生时间是 -> `24.08.28`，是目前记录笔记所用的主要工�
 
 ## 5. 「知识库」基本结构是？
 
-- 这里以当前 `TNotes.introduction` 这个知识库为例，对其中的核心文件、目录做一个简单介绍：
+- 这里以当前 `TNotes.docs` 这个知识库为例，对其中的核心文件、目录做一个简单介绍：
 
 ```bash
 # .

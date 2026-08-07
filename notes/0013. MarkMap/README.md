@@ -1,4 +1,4 @@
-# [0013. MarkMap](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0013.%20MarkMap)
+# [0013. MarkMap](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0013.%20MarkMap)
 
 <!-- region:toc -->
 

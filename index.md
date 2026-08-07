@@ -2,10 +2,11 @@
 layout: home
 
 hero:
-  name: TNotes.introduction
+  name: TNotes.docs
   image:
     src: /logo.png
     alt: TNotes logo
+  tagline: TNotes 说明文档
 ---
 
 <script setup>

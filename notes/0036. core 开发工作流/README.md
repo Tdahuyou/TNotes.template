@@ -1,4 +1,4 @@
-# [0036. core 开发工作流](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0036.%20core%20%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81)
+# [0036. core 开发工作流](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0036.%20core%20%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81)
 
 <!-- region:toc -->
 
@@ -43,7 +43,7 @@ pnpm build:check
 pnpm dev
 
 # 本地调试 - 在宿主仓库中 link 到本地 core
-cd ../TNotes.introduction
+cd ../TNotes.docs
 pnpm link ../core
 ```
 

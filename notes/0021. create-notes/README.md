@@ -1,4 +1,4 @@
-# [0021. create-notes](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0021.%20create-notes)
+# [0021. create-notes](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0021.%20create-notes)
 
 <!-- region:toc -->
 

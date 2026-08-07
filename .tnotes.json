@@ -1,8 +1,8 @@
 {
   "author": "tnotesjs",
-  "repoName": "TNotes.introduction",
+  "repoName": "TNotes.docs",
   "keywords": [
-    "TNotes.introduction"
+    "TNotes.docs"
   ],
   "sidebarShowNoteId": false,
   "packageManager": "pnpm",
@@ -17,7 +17,7 @@
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--introduction.svg"
     },
-    "title": "introduction",
+    "title": "docs",
     "completed_notes_count": {
       "25.05": 5,
       "25.06": 0,
@@ -32,13 +32,12 @@
       "26.03": 16,
       "26.04": 16,
       "26.05": 16,
-      "26.06": 16
+      "26.06": 16,
+      "26.07": 16,
+      "26.08": 16
     },
     "details": "TNotes 说明文档",
-    "link": "https://tnotesjs.github.io/TNotes.introduction/",
-    "created_at": 1740850835000,
-    "updated_at": 1782637601000,
-    "days_since_birth": 9862
+    "link": "https://tnotesjs.github.io/TNotes.docs/"
   },
   "port": 9379,
   "menuItems": [
@@ -71,8 +70,8 @@
       }
     },
     {
-      "ariaLabel": "TNotes.introduction github 仓库链接",
-      "link": "https://github.com/tnotesjs/TNotes.introduction",
+      "ariaLabel": "TNotes.docs github 仓库链接",
+      "link": "https://github.com/tnotesjs/TNotes.docs",
       "icon": "github"
     }
   ],

@@ -1,4 +1,4 @@
-# [0019. 关于作者 Tdahuyou](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0019.%20%E5%85%B3%E4%BA%8E%E4%BD%9C%E8%80%85%20Tdahuyou)
+# [0019. 关于作者 Tdahuyou](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0019.%20%E5%85%B3%E4%BA%8E%E4%BD%9C%E8%80%85%20Tdahuyou)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0033. sync-scripts](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0033.%20sync-scripts)
+# [0033. sync-scripts](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0033.%20sync-scripts)
 
 <!-- region:toc -->
 

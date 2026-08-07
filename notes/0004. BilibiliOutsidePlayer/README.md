@@ -1,4 +1,4 @@
-# [0004. BilibiliOutsidePlayer](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0004.%20BilibiliOutsidePlayer)
+# [0004. BilibiliOutsidePlayer](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0004.%20BilibiliOutsidePlayer)
 
 <!-- region:toc -->
 

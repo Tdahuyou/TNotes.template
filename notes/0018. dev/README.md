@@ -1,4 +1,4 @@
-# [0018. dev](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0018.%20dev)
+# [0018. dev](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0018.%20dev)
 
 <!-- region:toc -->
 
@@ -33,14 +33,14 @@
 ```bash
 $ pnpm tn:dev
 
-# > @ tn:dev /Users/huyouda/tnotesjs/TNotes.introduction
+# > @ tn:dev /Users/huyouda/tnotesjs/TNotes.docs
 # >                          tsx ./.vitepress/tnotes/index.ts --dev
 
 # 🚀 [23:18:01.949] [dev] 启动知识库开发服务
 # ℹ️ [23:18:01.952] [dev] 扫描到 40 篇笔记
 # ✅ [23:18:03.339] [dev] VitePress 服务（v1.6.4）已就绪，耗时：1129 ms
 # ✅ [23:18:03.347] [dev] 文件监听服务已就绪，耗时：8 ms
-# ℹ️ [23:18:03.347] [dev] 本地开发服务地址：http://localhost:9379/TNotes.introduction/
+# ℹ️ [23:18:03.347] [dev] 本地开发服务地址：http://localhost:9379/TNotes.docs/
 # ✨ [23:18:03.347] [dev] 命令执行耗时：1398 ms
 ```
 
@@ -176,10 +176,10 @@ interface NoteInfo {
 // notes [
 //   {
 //     index: '0001',
-//     path: '/Users/huyouda/tnotesjs/TNotes.introduction/notes/0001. TNotes 简介',
+//     path: '/Users/huyouda/tnotesjs/TNotes.docs/notes/0001. TNotes 简介',
 //     dirName: '0001. TNotes 简介',
-//     readmePath: '/Users/huyouda/tnotesjs/TNotes.introduction/notes/0001. TNotes 简介/README.md',
-//     configPath: '/Users/huyouda/tnotesjs/TNotes.introduction/notes/0001. TNotes 简介/.tnotes.json',
+//     readmePath: '/Users/huyouda/tnotesjs/TNotes.docs/notes/0001. TNotes 简介/README.md',
+//     configPath: '/Users/huyouda/tnotesjs/TNotes.docs/notes/0001. TNotes 简介/.tnotes.json',
 //     config: {
 //       bilibili: [],
 //       tnotes: [],
@@ -194,10 +194,10 @@ interface NoteInfo {
 //   },
 //   {
 //     index: '0002',
-//     path: '/Users/huyouda/tnotesjs/TNotes.introduction/notes/0002. TNotes 公式支持',
+//     path: '/Users/huyouda/tnotesjs/TNotes.docs/notes/0002. TNotes 公式支持',
 //     dirName: '0002. TNotes 公式支持',
-//     readmePath: '/Users/huyouda/tnotesjs/TNotes.introduction/notes/0002. TNotes 公式支持/README.md',
-//     configPath: '/Users/huyouda/tnotesjs/TNotes.introduction/notes/0002. TNotes 公式支持/.tnotes.json',
+//     readmePath: '/Users/huyouda/tnotesjs/TNotes.docs/notes/0002. TNotes 公式支持/README.md',
+//     configPath: '/Users/huyouda/tnotesjs/TNotes.docs/notes/0002. TNotes 公式支持/.tnotes.json',
 //     config: {
 //       bilibili: [],
 //       tnotes: [],
@@ -468,14 +468,14 @@ class VitepressService {
 ```bash
 pnpm tn:dev
 
-# > @ tn:dev /Users/huyouda/tnotesjs/TNotes.introduction
+# > @ tn:dev /Users/huyouda/tnotesjs/TNotes.docs
 # >                          tsx ./.vitepress/tnotes/index.ts --dev
 
 # 🚀 [23:18:01.949] [dev] 启动知识库开发服务
 # ℹ️ [23:18:01.952] [dev] 扫描到 40 篇笔记
 # ✅ [23:18:03.339] [dev] VitePress 服务（v1.6.4）已就绪，耗时：1129 ms
 # ✅ [23:18:03.347] [dev] 文件监听服务已就绪，耗时：8 ms
-# ℹ️ [23:18:03.347] [dev] 本地开发服务地址：http://localhost:9379/TNotes.introduction/
+# ℹ️ [23:18:03.347] [dev] 本地开发服务地址：http://localhost:9379/TNotes.docs/
 # ✨ [23:18:03.347] [dev] 命令执行耗时：1398 ms
 ```
 

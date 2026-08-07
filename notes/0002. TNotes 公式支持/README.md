@@ -1,4 +1,4 @@
-# [0002. TNotes 公式支持](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0002.%20TNotes%20%E5%85%AC%E5%BC%8F%E6%94%AF%E6%8C%81)
+# [0002. TNotes 公式支持](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0002.%20TNotes%20%E5%85%AC%E5%BC%8F%E6%94%AF%E6%8C%81)
 
 <!-- region:toc -->
 

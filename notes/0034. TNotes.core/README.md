@@ -1,4 +1,4 @@
-# [0034. TNotes.core](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0034.%20TNotes.core)
+# [0034. TNotes.core](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0034.%20TNotes.core)
 
 <!-- region:toc -->
 
@@ -9,7 +9,7 @@
   - [3.2. 决策记录](#32-决策记录)
 - [4. 仓库结构](#4-仓库结构)
   - [4.1. TNotes.core 仓库](#41-tnotescore-仓库)
-  - [4.2. TNotes.xxx 仓库（以 TNotes.introduction 为例）](#42-tnotesxxx-仓库以-tnotesintroduction-为例)
+  - [4.2. TNotes.xxx 仓库（以 TNotes.docs 为例）](#42-tnotesxxx-仓库以-tnotesdocs-为例)
   - [4.3. 文件归属划分](#43-文件归属划分)
 - [5. 日常工作流](#5-日常工作流)
   - [5.1. 编辑脚本](#51-编辑脚本)
@@ -26,7 +26,7 @@
   - [8.4. 外围文件维护](#84-外围文件维护)
 - [9. 迁移计划](#9-迁移计划)
   - [9.1. 第一阶段：创建 TNotes.core](#91-第一阶段创建-tnotescore)
-  - [9.2. 第二阶段：试点 TNotes.introduction](#92-第二阶段试点-tnotesintroduction)
+  - [9.2. 第二阶段：试点 TNotes.docs](#92-第二阶段试点-tnotesdocs)
   - [9.3. 第三阶段：逐步推广](#93-第三阶段逐步推广)
   - [9.4. 第四阶段：清理](#94-第四阶段清理)
 
@@ -57,7 +57,7 @@
 | 外围文件处理 | 留在各仓库，极少变动时手动更新 | 大部分外围文件几乎不变，不值得为此增加复杂度 |
 | 批量同步方式 | 暂不处理，先确保试点成功 | 后续再考虑一键同步脚本 |
 | 新仓库初始化 | 编写初始化脚本 | 自动化 submodule 添加和模板文件复制 |
-| 迁移策略 | 先试点 TNotes.introduction，再逐步推广 | 降低风险，验证通过后再批量迁移 |
+| 迁移策略 | 先试点 TNotes.docs，再逐步推广 | 降低风险，验证通过后再批量迁移 |
 
 ## 4. 仓库结构
 
@@ -78,10 +78,10 @@ TNotes.core/
 
 即当前 `.vitepress/tnotes/` 目录的全部内容，也是 TNotes.core 仓库的根目录。
 
-### 4.2. TNotes.xxx 仓库（以 TNotes.introduction 为例）
+### 4.2. TNotes.xxx 仓库（以 TNotes.docs 为例）
 
 ```text
-TNotes.introduction/
+TNotes.docs/
 ├── .gitmodules                   # 新增：submodule 声明
 ├── .vitepress/
 │   ├── tnotes/                   # submodule → TNotes.core
@@ -217,12 +217,12 @@ git commit -m "init TNotes.core at v1.2.0"
 ### 9.1. 第一阶段：创建 TNotes.core
 
 1. 在 GitHub 上创建 `tnotesjs/TNotes.core` 仓库
-2. 将 TNotes.introduction 的 `.vitepress/tnotes/` 内容复制到 TNotes.core
+2. 将 TNotes.docs 的 `.vitepress/tnotes/` 内容复制到 TNotes.core
 3. 首次 commit，打 tag `v1.0.0`
 
-### 9.2. 第二阶段：试点 TNotes.introduction
+### 9.2. 第二阶段：试点 TNotes.docs
 
-1. 给 TNotes.introduction 打 tag 或开分支，便于回滚
+1. 给 TNotes.docs 打 tag 或开分支，便于回滚
 2. 删除 `.vitepress/tnotes/` 目录
 3. 执行 `git submodule add` 添加 TNotes.core
 4. 修改 `.github/workflows/deploy.yml`，添加 `submodules: true`

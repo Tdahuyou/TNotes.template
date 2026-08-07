@@ -1,4 +1,4 @@
-# [0016. TNotes 更新日志](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0016.%20TNotes%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+# [0016. TNotes 更新日志](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0016.%20TNotes%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 <!-- region:toc -->
 
@@ -81,7 +81,7 @@ tnotesjs
 ├── TNotes.en-words
 ├── TNotes.footprints
 ├── TNotes.git-notes
-├── TNotes.introduction
+├── TNotes.docs
 ├── TNotes.javascript
 ├── TNotes.leetcode
 ├── TNotes.miniprogram

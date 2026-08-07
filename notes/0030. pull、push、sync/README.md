@@ -1,4 +1,4 @@
-# [0030. pull、push、sync](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0030.%20pull%E3%80%81push%E3%80%81sync)
+# [0030. pull、push、sync](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0030.%20pull%E3%80%81push%E3%80%81sync)
 
 <!-- region:toc -->
 

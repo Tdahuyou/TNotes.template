@@ -1,4 +1,4 @@
-# [0007. EnWordList](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0007.%20EnWordList)
+# [0007. EnWordList](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0007.%20EnWordList)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0005. Discussions](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0005.%20Discussions)
+# [0005. Discussions](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0005.%20Discussions)
 
 <!-- region:toc -->
 

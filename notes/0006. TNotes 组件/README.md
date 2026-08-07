@@ -1,4 +1,4 @@
-# [0006. TNotes 组件](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0006.%20TNotes%20%E7%BB%84%E4%BB%B6)
+# [0006. TNotes 组件](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0006.%20TNotes%20%E7%BB%84%E4%BB%B6)
 
 <!-- region:toc -->
 
