@@ -13,5 +13,5 @@ TNotes 系列知识库都是基于 [@tnotesjs/core][3] 搭建的，比如当前�
 - [@tnotesjs/core - github][3]
 
 [1]: https://github.com/tnotesjs/TNotes.docs
-[2]: https://tnotesjs.github.io/TNotes.introduction/
+[2]: https://tnotesjs.github.io/TNotes.docs/
 [3]: https://github.com/tnotesjs/core
