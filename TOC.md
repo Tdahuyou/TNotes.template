@@ -1,5 +1,4 @@
-- [x] 0015. TNotes.docs
-  - [x] 0016. TNotes 更新日志
+- [x] 0016. TNotes 更新日志
 - [x] 0001. TNotes 简介
   - [x] 0028. TNotes 根知识库
   - [x] 0002. TNotes 公式支持

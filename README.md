@@ -2,11 +2,18 @@
 
 ## 简介
 
-[TNotes.docs][1] 是 [@tnotesjs/core][3] 的使用说明文档。
+[TNotes.docs][1] 是 [tnotesjs/core][3] 的使用说明文档，主要记录以下内容：
+
+- TNotes 核心组件的基本使用说明 + 功能演示
+- TNotes 核心命令的基本使用说明
+- TNotes 知识库配置文件和笔记配置文件的介绍
+- TNotes 架构以实现原理简介
+- TNotes 的一些迭代 Log
+- ……
 
 ## `TNotes.xxx` 知识库
 
-TNotes 知识库都是基于 [@tnotesjs/core][3] 搭建的，比如当前的这个 [docs][2] 知识库。
+TNotes 知识库都是基于 [tnotesjs/core][3] 搭建的，比如当前的这个 [docs][2] 知识库。
 
 | 知识库 | 简介 |
 | --- | --- |
@@ -47,11 +54,13 @@ TNotes 知识库都是基于 [@tnotesjs/core][3] 搭建的，比如当前的这�
 
 - [TNotes.docs - github][1]
 - [TNotes.docs - github page][2]
-- [@tnotesjs/core - github][3]
+- [tnotesjs/core - github][3]
+- [tnotesjs/core - npm][4]
 
 [1]: https://github.com/tnotesjs/TNotes.docs
 [2]: https://tnotesjs.github.io/TNotes.docs/
 [3]: https://github.com/tnotesjs/core
+[4]: https://www.npmjs.com/package/@tnotesjs/core
 
 <!-- tnotesjs repos link -->
 

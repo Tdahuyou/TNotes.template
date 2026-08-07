@@ -3,23 +3,24 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. 在哪查看 TNotes 日志？](#3-在哪查看-tnotes-日志)
-- [4. 日志都记录了哪些内容？](#4-日志都记录了哪些内容)
-- [5. 日志是如何自动生成的？](#5-日志是如何自动生成的)
-- [6. 引用](#6-引用)
+- [2. 在哪查看 TNotes 日志？](#2-在哪查看-tnotes-日志)
+- [3. 日志都记录了哪些内容？](#3-日志都记录了哪些内容)
+- [4. 日志是如何自动生成的？](#4-日志是如何自动生成的)
+- [5. 引用](#5-引用)
 
 <!-- endregion:toc -->
 
 ## 1. 本节内容
 
-- TNotes 更新日志简介
-
-## 2. 评价
-
 为了方便查阅每个月完成的笔记内容，TNotes 更新日志以月为单位，同步在了 tnotesjs 组织中的 projects 模块下。
 
-## 3. 在哪查看 TNotes 日志？
+这一篇笔记主要介绍：
+
+- 在哪查看 TNotes 更新日志
+- 日志中记录的内容格式
+- 如何生成 TNotes 日志
+
+## 2. 在哪查看 TNotes 日志？
 
 在 [tnotesjs 组织][2] 组织下，找到 Project 模块，这里边儿有一个公开的 [TNotes 日志模块][1]。
 
@@ -31,7 +32,7 @@
 
 :::
 
-## 4. 日志都记录了哪些内容？
+## 3. 日志都记录了哪些内容？
 
 在日志模块中以月为单位来记录每个月完成的笔记内容，并提供了 github 和 github pages 的访问链接。
 
@@ -39,7 +40,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-12-13-15-26-00.png)
 
-## 5. 日志是如何自动生成的？
+## 4. 日志是如何自动生成的？
 
 在根知识库 TNotes 中执行 `pnpm tn:changelog` 命令即可自动在 `changelogs` 目录下生成指定范围的日志文件：
 
@@ -75,13 +76,13 @@ tnotesjs
 ├── TNotes.canvas
 ├── TNotes.chrome
 ├── TNotes.cooking
+├── TNotes.docs
 ├── TNotes.egg
 ├── TNotes.electron
 ├── TNotes.en-notes
 ├── TNotes.en-words
 ├── TNotes.footprints
 ├── TNotes.git-notes
-├── TNotes.docs
 ├── TNotes.javascript
 ├── TNotes.leetcode
 ├── TNotes.miniprogram
@@ -101,7 +102,7 @@ tnotesjs
 └── TNotes.webpack
 ```
 
-## 6. 引用
+## 5. 引用
 
 - [tnotesjs 组织 - github][2]
 - [TNotes 日志模块 - github - tnotesjs][1]

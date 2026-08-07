@@ -1,18 +1,10 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.docs",
-  "keywords": [
-    "TNotes.docs"
-  ],
+  "keywords": ["TNotes.docs"],
   "sidebarShowNoteId": false,
   "packageManager": "pnpm",
-  "ignore_dirs": [
-    ".vscode",
-    "0000",
-    "assets",
-    "node_modules",
-    "demos"
-  ],
+  "ignore_dirs": [".vscode", "0000", "assets", "node_modules", "demos"],
   "root_item": {
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--introduction.svg"
@@ -34,12 +26,12 @@
       "26.05": 16,
       "26.06": 16,
       "26.07": 16,
-      "26.08": 16
+      "26.08": 15
     },
     "details": "TNotes 说明文档",
     "link": "https://tnotesjs.github.io/TNotes.docs/"
   },
-  "port": 9379,
+  "port": 10107,
   "menuItems": [
     {
       "text": "🏠 Home",

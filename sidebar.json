@@ -1,18 +1,9 @@
 [
   {
-    "text": "✅ TNotes.docs",
-    "link": "/notes/0015. TNotes.docs/README",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "✅ TNotes 更新日志",
-        "link": "/notes/0016. TNotes 更新日志/README",
-        "tocLineIndex": 1,
-        "nodeId": "note:0016"
-      }
-    ],
+    "text": "✅ TNotes 更新日志",
+    "link": "/notes/0016. TNotes 更新日志/README",
     "tocLineIndex": 0,
-    "nodeId": "note:0015"
+    "nodeId": "note:0016"
   },
   {
     "text": "✅ TNotes 简介",
@@ -22,35 +13,35 @@
       {
         "text": "✅ TNotes 根知识库",
         "link": "/notes/0028. TNotes 根知识库/README",
-        "tocLineIndex": 3,
+        "tocLineIndex": 2,
         "nodeId": "note:0028"
       },
       {
         "text": "✅ TNotes 公式支持",
         "link": "/notes/0002. TNotes 公式支持/README",
-        "tocLineIndex": 4,
+        "tocLineIndex": 3,
         "nodeId": "note:0002"
       },
       {
         "text": "✅ 分仓库模式",
         "link": "/notes/0014. 分仓库模式/README",
-        "tocLineIndex": 5,
+        "tocLineIndex": 4,
         "nodeId": "note:0014"
       },
       {
         "text": "⏰ TNotes 脚本（待更新）",
         "link": "/notes/0022. TNotes 脚本（待更新）/README",
-        "tocLineIndex": 6,
+        "tocLineIndex": 5,
         "nodeId": "note:0022"
       },
       {
         "text": "⏰ TNotes 笔记配置文件（待更新）",
         "link": "/notes/0011. TNotes 笔记配置文件（待更新）/README",
-        "tocLineIndex": 7,
+        "tocLineIndex": 6,
         "nodeId": "note:0011"
       }
     ],
-    "tocLineIndex": 2,
+    "tocLineIndex": 1,
     "nodeId": "note:0001"
   },
   {
@@ -61,47 +52,47 @@
       {
         "text": "✅ BilibiliOutsidePlayer",
         "link": "/notes/0004. BilibiliOutsidePlayer/README",
-        "tocLineIndex": 9,
+        "tocLineIndex": 8,
         "nodeId": "note:0004"
       },
       {
         "text": "✅ EnWordList",
         "link": "/notes/0007. EnWordList/README",
-        "tocLineIndex": 10,
+        "tocLineIndex": 9,
         "nodeId": "note:0007"
       },
       {
         "text": "✅ Swiper",
         "link": "/notes/0008. Swiper/README",
-        "tocLineIndex": 11,
+        "tocLineIndex": 10,
         "nodeId": "note:0008"
       },
       {
         "text": "✅ Mermaid",
         "link": "/notes/0012. Mermaid/README",
-        "tocLineIndex": 12,
+        "tocLineIndex": 11,
         "nodeId": "note:0012"
       },
       {
         "text": "✅ MarkMap",
         "link": "/notes/0013. MarkMap/README",
-        "tocLineIndex": 13,
+        "tocLineIndex": 12,
         "nodeId": "note:0013"
       },
       {
         "text": "✅ Discussions",
         "link": "/notes/0005. Discussions/README",
-        "tocLineIndex": 14,
+        "tocLineIndex": 13,
         "nodeId": "note:0005"
       },
       {
         "text": "✅ Footprints",
         "link": "/notes/0010. Footprints/README",
-        "tocLineIndex": 15,
+        "tocLineIndex": 14,
         "nodeId": "note:0010"
       }
     ],
-    "tocLineIndex": 8,
+    "tocLineIndex": 7,
     "nodeId": "note:0006"
   },
   {
@@ -111,69 +102,69 @@
       {
         "text": "⏰ build",
         "link": "/notes/0020. build/README",
-        "tocLineIndex": 17,
+        "tocLineIndex": 16,
         "nodeId": "note:0020"
       },
       {
         "text": "⏰ create-notes",
         "link": "/notes/0021. create-notes/README",
-        "tocLineIndex": 18,
+        "tocLineIndex": 17,
         "nodeId": "note:0021"
       },
       {
         "text": "⏰ dev",
         "link": "/notes/0018. dev/README",
-        "tocLineIndex": 19,
+        "tocLineIndex": 18,
         "nodeId": "note:0018"
       },
       {
         "text": "⏰ fix-timestamps",
         "link": "/notes/0024. fix-timestamps/README",
-        "tocLineIndex": 20,
+        "tocLineIndex": 19,
         "nodeId": "note:0024"
       },
       {
         "text": "⏰ help",
         "link": "/notes/0026. help/README",
-        "tocLineIndex": 21,
+        "tocLineIndex": 20,
         "nodeId": "note:0026"
       },
       {
         "text": "⏰ preview",
         "link": "/notes/0029. preview/README",
-        "tocLineIndex": 22,
+        "tocLineIndex": 21,
         "nodeId": "note:0029"
       },
       {
         "text": "⏰ pull、push、sync",
         "link": "/notes/0030. pull、push、sync/README",
-        "tocLineIndex": 23,
+        "tocLineIndex": 22,
         "nodeId": "note:0030"
       },
       {
         "text": "⏰ sync-scripts",
         "link": "/notes/0033. sync-scripts/README",
-        "tocLineIndex": 24,
+        "tocLineIndex": 23,
         "nodeId": "note:0033"
       },
       {
         "text": "⏰ update",
         "link": "/notes/0031. update/README",
-        "tocLineIndex": 25,
+        "tocLineIndex": 24,
         "nodeId": "note:0031"
       },
       {
         "text": "⏰ update-completed-count",
         "link": "/notes/0032. update-completed-count/README",
-        "tocLineIndex": 26,
+        "tocLineIndex": 25,
         "nodeId": "note:0032"
       }
     ],
     "folderPath": [
       "TNotes 命令"
     ],
-    "tocLineIndex": 16,
-    "nodeId": "line:16"
+    "tocLineIndex": 15,
+    "nodeId": "line:15"
   },
   {
     "text": "TNotes 笔记书写规范",
@@ -182,27 +173,27 @@
       {
         "text": "⏰ TNotes 笔记书写规范",
         "link": "/notes/0037. TNotes 笔记书写规范/README",
-        "tocLineIndex": 28,
+        "tocLineIndex": 27,
         "nodeId": "note:0037"
       },
       {
         "text": "⏰ 问题驱动的记笔记模式",
         "link": "/notes/0038. 问题驱动的记笔记模式/README",
-        "tocLineIndex": 29,
+        "tocLineIndex": 28,
         "nodeId": "note:0038"
       },
       {
         "text": "✅ emoji 规范",
         "link": "/notes/0027. emoji 规范/README",
-        "tocLineIndex": 30,
+        "tocLineIndex": 29,
         "nodeId": "note:0027"
       }
     ],
     "folderPath": [
       "TNotes 笔记书写规范"
     ],
-    "tocLineIndex": 27,
-    "nodeId": "line:27"
+    "tocLineIndex": 26,
+    "nodeId": "line:26"
   },
   {
     "text": "⏰ TNotes 核心功能的实现",
@@ -211,27 +202,27 @@
       {
         "text": "⏰ 评论功能的技术实现（Giscus）",
         "link": "/notes/0003. 评论功能的技术实现（Giscus）/README",
-        "tocLineIndex": 32,
+        "tocLineIndex": 31,
         "nodeId": "note:0003"
       },
       {
         "text": "⏰ 优化搜索配置",
         "link": "/notes/0009. 优化搜索配置/README",
-        "tocLineIndex": 33,
+        "tocLineIndex": 32,
         "nodeId": "note:0009"
       },
       {
         "text": "⏰ 处理笨重的 git log 问题（待迁移到 git-notes 中）",
         "link": "/notes/0023. 处理笨重的 git log 问题（待迁移到 git-notes 中）/README",
-        "tocLineIndex": 34,
+        "tocLineIndex": 33,
         "nodeId": "note:0023"
       }
     ],
     "folderPath": [
       "⏰ TNotes 核心功能的实现"
     ],
-    "tocLineIndex": 31,
-    "nodeId": "line:31"
+    "tocLineIndex": 30,
+    "nodeId": "line:30"
   },
   {
     "text": "core 开发工作流",
@@ -240,15 +231,15 @@
       {
         "text": "⏰ core 开发工作流",
         "link": "/notes/0036. core 开发工作流/README",
-        "tocLineIndex": 36,
+        "tocLineIndex": 35,
         "nodeId": "note:0036"
       }
     ],
     "folderPath": [
       "core 开发工作流"
     ],
-    "tocLineIndex": 35,
-    "nodeId": "line:35"
+    "tocLineIndex": 34,
+    "nodeId": "line:34"
   },
   {
     "text": "others",
@@ -257,56 +248,56 @@
       {
         "text": "✅ 关于作者 Tdahuyou",
         "link": "/notes/0019. 关于作者 Tdahuyou/README",
-        "tocLineIndex": 38,
+        "tocLineIndex": 37,
         "nodeId": "note:0019"
       },
       {
         "text": "⏰ Q&A",
         "link": "/notes/0025. Q&A/README",
-        "tocLineIndex": 39,
+        "tocLineIndex": 38,
         "nodeId": "note:0025"
       },
       {
         "text": "⏰ 统计知识库近 12 个月每个月的笔记完成数量",
         "link": "/notes/0017. 统计知识库近 12 个月每个月的笔记完成数量/README",
-        "tocLineIndex": 40,
+        "tocLineIndex": 39,
         "nodeId": "note:0017"
       },
       {
         "text": "⏰ TNotes.core",
         "link": "/notes/0034. TNotes.core/README",
-        "tocLineIndex": 41,
+        "tocLineIndex": 40,
         "nodeId": "note:0034"
       },
       {
         "text": "⏰ TNotes 规范",
         "link": "/notes/0035. TNotes 规范/README",
-        "tocLineIndex": 42,
+        "tocLineIndex": 41,
         "nodeId": "note:0035"
       },
       {
         "text": "⏰ new",
         "link": "/notes/0041. new/README",
-        "tocLineIndex": 43,
+        "tocLineIndex": 42,
         "nodeId": "note:0041"
       },
       {
         "text": "⏰ new",
         "link": "/notes/0039. new/README",
-        "tocLineIndex": 44,
+        "tocLineIndex": 43,
         "nodeId": "note:0039"
       },
       {
         "text": "⏰ new",
         "link": "/notes/0040. new/README",
-        "tocLineIndex": 45,
+        "tocLineIndex": 44,
         "nodeId": "note:0040"
       }
     ],
     "folderPath": [
       "others"
     ],
-    "tocLineIndex": 37,
-    "nodeId": "line:37"
+    "tocLineIndex": 36,
+    "nodeId": "line:36"
   }
 ]
