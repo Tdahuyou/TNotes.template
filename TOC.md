@@ -10,7 +10,7 @@
   - [x] 0007. EnWordList
   - [x] 0008. Swiper
   - [x] 0012. Mermaid
-  - [x] 0013. MarkMap
+  - [x] 0013. Mindmap
   - [x] 0005. Discussions
   - [x] 0010. Footprints
 - TNotes 命令
