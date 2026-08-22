@@ -43,13 +43,13 @@
 
 ### 3.2. 当前的笔记架构
 
-```markmap
+```mindmap
 
-- TNotes（根知识库）
-  - TNotes.algorithms（子知识库）
-  - TNotes.c（子知识库）
-  - TNotes.canvas（子知识库）
-  - ……
+# TNotes（根知识库）
+- TNotes.algorithms（子知识库）
+- TNotes.c（子知识库）
+- TNotes.canvas（子知识库）
+- ……
 
 ```
 
