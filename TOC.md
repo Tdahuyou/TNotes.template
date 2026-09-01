@@ -6,8 +6,8 @@
   - [ ] 0022. TNotes 脚本（待更新）
   - [ ] 0011. TNotes 笔记配置文件（待更新）
 - [x] 0006. TNotes 组件
-  - [x] 0004. BilibiliOutsidePlayer
-  - [x] 0007. EnWordList
+  - [x] 0004. BilibiliVideo
+  - [x] 0007. WordList
   - [x] 0008. Swiper
   - [x] 0012. Mermaid
   - [x] 0013. Mindmap

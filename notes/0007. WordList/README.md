@@ -1,4 +1,4 @@
-# [0007. EnWordList](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0007.%20EnWordList)
+# [0007. WordList](https://github.com/tnotesjs/TNotes.docs/tree/main/notes/0007.%20WordList)
 
 <!-- region:toc -->
 
@@ -8,7 +8,7 @@
   - [3.1. 核心功能简介](#31-核心功能简介)
   - [3.2. 功能演示](#32-功能演示)
   - [3.3. 使用示例](#33-使用示例)
-- [4. `EnWordList` 组件依赖的词典数据源是？](#4-enwordlist-组件依赖的词典数据源是)
+- [4. `WordList` 组件依赖的词典数据源是？](#4-wordlist-组件依赖的词典数据源是)
 - [5. 引用](#5-引用)
 
 <!-- endregion:toc -->
@@ -57,7 +57,7 @@ TODO：使用体验不是特别满意，还会继续优化！
 ```md
 <!-- 布尔属性：needSort，可以开启按照字母升序排序的功能 -->
 
-<EnWordList :words="[
+<WordList :words="[
 'cancel',
 'explosive',
 'numerous',
@@ -82,7 +82,7 @@ TODO：使用体验不是特别满意，还会继续优化！
 
 最终效果如下：
 
-<EnWordList :words="[
+<WordList :words="[
 'cancel',
 'explosive',
 'numerous',
@@ -104,9 +104,9 @@ TODO：使用体验不是特别满意，还会继续优化！
 'audience',
 'meanwhile',]" />
 
-## 4. `EnWordList` 组件依赖的词典数据源是？
+## 4. `WordList` 组件依赖的词典数据源是？
 
-`EnWordList` 组件依赖的词典数据源来自于项目：[TNotes.en-words][2]。
+`WordList` 组件依赖的词典数据源来自于项目：[TNotes.en-words][2]。
 
 原始数据源来自于项目：[dict][1]。
 
