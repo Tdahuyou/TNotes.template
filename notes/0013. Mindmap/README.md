@@ -8,7 +8,6 @@
 - [4. 设置根主题标题](#4-设置根主题标题)
   - [4.1. 围栏标题](#41-围栏标题)
   - [4.2. Markdown H1](#42-markdown-h1)
-  - [4.3. 引用文件标题](#43-引用文件标题)
 - [5. 控制默认展开层级](#5-控制默认展开层级)
 - [6. 语法约束](#6-语法约束)
 - [7. 相关链接](#7-相关链接)
@@ -41,7 +40,14 @@ TNotes 的 Mindmap 预览由 [`@tnotesjs/mindmap-core`][mindmap-core] 提供解�
 
 输入：
 
-<<< ./assets/1.md
+````md
+```mindmap
+
+- item1
+- item2
+
+```
+````
 
 输出：
 
@@ -97,22 +103,6 @@ TNotes 的 Mindmap 预览由 [`@tnotesjs/mindmap-core`][mindmap-core] 提供解�
 - mindmap-vscode
 ```
 
-### 4.3. 引用文件标题
-
-使用 `<<< 文件路径 [title]` 导入外部 Markdown，并为导入内容指定根主题：
-
-````md
-```mindmap
-<<< ./assets/2.md [学习计划]
-```
-````
-
-```mindmap
-<<< ./assets/2.md [学习计划]
-```
-
-如果引用中没有 `[title]`，则继续读取被导入文件中的 H1；文件也没有 H1 时使用 `root`。
-
 ## 5. 控制默认展开层级
 
 围栏名称后的数字表示默认展示到第几级子节点，最小值为 `1`：
@@ -125,20 +115,35 @@ TNotes 的 Mindmap 预览由 [`@tnotesjs/mindmap-core`][mindmap-core] 提供解�
 
 ````md
 ```mindmap [学习计划] 1
-<<< ./assets/2.md
+- item 1
+  - item 1.1
+    - item 1.1.1
+  - item 1.2
+- item 2
+  - item 2.1
 ```
 ````
 
 一级展开：
 
 ```mindmap [学习计划] 1
-<<< ./assets/2.md
+- item 1
+  - item 1.1
+    - item 1.1.1
+  - item 1.2
+- item 2
+  - item 2.1
 ```
 
 二级展开：
 
 ```mindmap [学习计划] 2
-<<< ./assets/2.md
+- item 1
+  - item 1.1
+    - item 1.1.1
+  - item 1.2
+- item 2
+  - item 2.1
 ```
 
 ## 6. 语法约束
@@ -149,7 +154,7 @@ TNotes 的 Mindmap 预览由 [`@tnotesjs/mindmap-core`][mindmap-core] 提供解�
 - 展开层级直接写为正整数，例如 `mindmap 2`；不再支持 `{2}` 参数形式。
 - 根主题使用 `[title]`、引用文件后的 `[title]`、内容 H1 或默认 `root` 设置。
 - 除唯一的 H1 根主题外，节点必须使用无序列表表达；H2～H6 不再自动转换为节点。
-- `<<< ./path/file.md [title]` 文件引用仍属于规范语法。
+- 暂时放弃 `<<< ./path/file.md [title]` 这种文件引用写法。
 
 ## 7. 相关链接
 
