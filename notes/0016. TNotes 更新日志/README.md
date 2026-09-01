@@ -80,7 +80,7 @@ tnotesjs
 ├── TNotes.egg
 ├── TNotes.electron
 ├── TNotes.en-notes
-├── TNotes.en-words
+├── en-words
 ├── TNotes.footprints
 ├── TNotes.git-notes
 ├── TNotes.javascript

@@ -106,7 +106,7 @@ TODO：使用体验不是特别满意，还会继续优化！
 
 ## 4. `WordList` 组件依赖的词典数据源是？
 
-`WordList` 组件依赖的词典数据源来自于项目：[TNotes.en-words][2]。
+`WordList` 组件依赖的词典数据源来自于项目：[en-words][2]。
 
 原始数据源来自于项目：[dict][1]。
 
@@ -115,7 +115,7 @@ TODO：使用体验不是特别满意，还会继续优化！
 ## 5. 引用
 
 - [dict][1]
-- [TNotes.en-words][2]
+- [en-words][2]
 
 [1]: https://github.com/kajweb/dict
-[2]: https://github.com/tnotesjs/TNotes.en-words/
+[2]: https://github.com/tnotesjs/en-words

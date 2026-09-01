@@ -27,7 +27,7 @@ TNotes 知识库都是基于 [tnotesjs/core][3] 搭建的，比如当前的这�
 | [TNotes.egg][] | Egg.js 笔记 |
 | [TNotes.electron][] | Electron 笔记 |
 | [TNotes.en-notes][] | 英语笔记 |
-| [TNotes.en-words][] | 英语单词词库 |
+| [en-words][] | 英语单词词库 |
 | [TNotes.footprints][] | 个人足迹 |
 | [TNotes.git-notes][] | Git 笔记 |
 | [TNotes.github][] | GitHub 笔记 |
@@ -74,7 +74,7 @@ TNotes 知识库都是基于 [tnotesjs/core][3] 搭建的，比如当前的这�
 [TNotes.egg]: https://tnotesjs.github.io/TNotes.egg/README
 [TNotes.electron]: https://tnotesjs.github.io/TNotes.electron/README
 [TNotes.en-notes]: https://tnotesjs.github.io/TNotes.en-notes/README
-[TNotes.en-words]: https://github.com/tnotesjs/TNotes.en-words
+[en-words]: https://github.com/tnotesjs/en-words
 [TNotes.footprints]: https://tnotesjs.github.io/TNotes.footprints/README
 [TNotes.git-notes]: https://tnotesjs.github.io/TNotes.git-notes/README
 [TNotes.github]: https://tnotesjs.github.io/TNotes.github/README
