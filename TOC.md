@@ -1,10 +1,10 @@
-- [x] 0016. TNotes 更新日志
 - [x] 0001. TNotes 简介
   - [x] 0028. TNotes 根知识库
   - [x] 0002. TNotes 公式支持
   - [x] 0014. 分仓库模式
   - [ ] 0022. TNotes 脚本（待更新）
   - [ ] 0011. TNotes 笔记配置文件（待更新）
+- [x] 0016. TNotes 更新日志
 - [x] 0006. TNotes 组件
   - [x] 0004. BilibiliVideo
   - [x] 0007. WordList

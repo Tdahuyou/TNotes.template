@@ -52,10 +52,8 @@ TNotes 的 Mindmap 预览由 [`@tnotesjs/mindmap-core`][mindmap-core] 提供解�
 输出：
 
 ```mindmap
-
 - item1
 - item2
-
 ```
 
 ## 4. 设置根主题标题
