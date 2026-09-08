@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+  '@parcel/watcher': true
+minimumReleaseAgeExclude:
+  - '@tnotesjs/ui'
+  - '@tnotesjs/kb'
+  - '@tnotesjs/ssg'

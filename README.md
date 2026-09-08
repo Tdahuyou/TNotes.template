@@ -2,18 +2,21 @@
 
 ## 简介
 
-[TNotes.docs][1] 是 [tnotesjs/core][3] 的使用说明文档，主要记录以下内容：
+[TNotes.docs][1] 是 TNotes 的产品说明：Desk 怎么用、知识库长什么样、以及 `tnotes-kb` / `tnotes-ssg` 还剩哪些命令。
 
-- TNotes 核心组件的基本使用说明 + 功能演示
-- TNotes 核心命令的基本使用说明
-- TNotes 知识库配置文件和笔记配置文件的介绍
-- TNotes 架构以实现原理简介
-- TNotes 的一些迭代 Log
-- ……
+主要记录：
+
+- 知识库与笔记的目录约定（`tnotes.json` + `TOC.md` + 平铺笔记）
+- Desk 里新建库、写笔记、预览站点
+- Markdown 扩展（公式、Mermaid、Swiper、Mindmap、Footprints…）
+- GitHub Pages 用 `tnotes-ssg` 构建
+- 一些迭代记录和旧 core 归档笔记
+
+日常编辑请用 Desk 打开本仓库，不要再用 `@tnotesjs/core` / VitePress。
 
 ## `TNotes.xxx` 知识库
 
-TNotes 知识库都是基于 [tnotesjs/core][3] 搭建的，比如当前的这个 [docs][2] 知识库。
+每个主题一个独立 git 仓库。已迁移的库用 Desk 打开；未迁移的库仍是旧的 VitePress + core 布局。
 
 | 知识库 | 简介 |
 | --- | --- |
@@ -54,47 +57,49 @@ TNotes 知识库都是基于 [tnotesjs/core][3] 搭建的，比如当前的这�
 
 - [TNotes.docs - github][1]
 - [TNotes.docs - github page][2]
-- [tnotesjs/core - github][3]
-- [tnotesjs/core - npm][4]
+- [desk][3]
+- [kb][4]
+- [ssg][5]
 
 [1]: https://github.com/tnotesjs/TNotes.docs
 [2]: https://tnotesjs.github.io/TNotes.docs/
-[3]: https://github.com/tnotesjs/core
-[4]: https://www.npmjs.com/package/@tnotesjs/core
+[3]: https://github.com/tnotesjs/desk
+[4]: https://github.com/tnotesjs/kb
+[5]: https://github.com/tnotesjs/ssg
 
 <!-- tnotesjs repos link -->
 
 [TNotes]: https://tnotesjs.github.io/TNotes/
-[TNotes.algorithms]: https://tnotesjs.github.io/TNotes.algorithms/README
-[TNotes.c]: https://tnotesjs.github.io/TNotes.c/README
-[TNotes.canvas]: https://tnotesjs.github.io/TNotes.canvas/README
-[TNotes.chrome]: https://tnotesjs.github.io/TNotes.chrome/README
-[TNotes.cooking]: https://tnotesjs.github.io/TNotes.cooking/README
-[TNotes.docs]: https://tnotesjs.github.io/TNotes.docs/README
-[TNotes.egg]: https://tnotesjs.github.io/TNotes.egg/README
-[TNotes.electron]: https://tnotesjs.github.io/TNotes.electron/README
-[TNotes.en-notes]: https://tnotesjs.github.io/TNotes.en-notes/README
+[TNotes.algorithms]: https://tnotesjs.github.io/TNotes.algorithms/
+[TNotes.c]: https://tnotesjs.github.io/TNotes.c/
+[TNotes.canvas]: https://tnotesjs.github.io/TNotes.canvas/
+[TNotes.chrome]: https://tnotesjs.github.io/TNotes.chrome/
+[TNotes.cooking]: https://tnotesjs.github.io/TNotes.cooking/
+[TNotes.docs]: https://tnotesjs.github.io/TNotes.docs/
+[TNotes.egg]: https://tnotesjs.github.io/TNotes.egg/
+[TNotes.electron]: https://tnotesjs.github.io/TNotes.electron/
+[TNotes.en-notes]: https://tnotesjs.github.io/TNotes.en-notes/
 [en-words]: https://github.com/tnotesjs/en-words
-[TNotes.footprints]: https://tnotesjs.github.io/TNotes.footprints/README
-[TNotes.git-notes]: https://tnotesjs.github.io/TNotes.git-notes/README
-[TNotes.github]: https://tnotesjs.github.io/TNotes.github/README
-[TNotes.javascript]: https://tnotesjs.github.io/TNotes.javascript/README
-[TNotes.leetcode]: https://tnotesjs.github.io/TNotes.leetcode/README
-[TNotes.markdown]: https://tnotesjs.github.io/TNotes.markdown/README
-[TNotes.miniprogram]: https://tnotesjs.github.io/TNotes.miniprogram/README
-[TNotes.network]: https://tnotesjs.github.io/TNotes.network/README
-[TNotes.nodejs]: https://tnotesjs.github.io/TNotes.nodejs/README
-[TNotes.notes]: https://tnotesjs.github.io/TNotes.notes/README
-[TNotes.python]: https://tnotesjs.github.io/TNotes.python/README
-[TNotes.react]: https://tnotesjs.github.io/TNotes.react/README
-[TNotes.redis]: https://tnotesjs.github.io/TNotes.redis/README
-[TNotes.sql]: https://tnotesjs.github.io/TNotes.sql/README
-[TNotes.svg]: https://tnotesjs.github.io/TNotes.svg/README
-[TNotes.typescript]: https://tnotesjs.github.io/TNotes.typescript/README
-[TNotes.vite]: https://tnotesjs.github.io/TNotes.vite/README
-[TNotes.vitepress]: https://tnotesjs.github.io/TNotes.vitepress/README
-[TNotes.vscode]: https://tnotesjs.github.io/TNotes.vscode/README
-[TNotes.vue]: https://tnotesjs.github.io/TNotes.vue/README
-[TNotes.webpack]: https://tnotesjs.github.io/TNotes.webpack/README
+[TNotes.footprints]: https://tnotesjs.github.io/TNotes.footprints/
+[TNotes.git-notes]: https://tnotesjs.github.io/TNotes.git-notes/
+[TNotes.github]: https://tnotesjs.github.io/TNotes.github/
+[TNotes.javascript]: https://tnotesjs.github.io/TNotes.javascript/
+[TNotes.leetcode]: https://tnotesjs.github.io/TNotes.leetcode/
+[TNotes.markdown]: https://tnotesjs.github.io/TNotes.markdown/
+[TNotes.miniprogram]: https://tnotesjs.github.io/TNotes.miniprogram/
+[TNotes.network]: https://tnotesjs.github.io/TNotes.network/
+[TNotes.nodejs]: https://tnotesjs.github.io/TNotes.nodejs/
+[TNotes.notes]: https://tnotesjs.github.io/TNotes.notes/
+[TNotes.python]: https://tnotesjs.github.io/TNotes.python/
+[TNotes.react]: https://tnotesjs.github.io/TNotes.react/
+[TNotes.redis]: https://tnotesjs.github.io/TNotes.redis/
+[TNotes.sql]: https://tnotesjs.github.io/TNotes.sql/
+[TNotes.svg]: https://tnotesjs.github.io/TNotes.svg/
+[TNotes.typescript]: https://tnotesjs.github.io/TNotes.typescript/
+[TNotes.vite]: https://tnotesjs.github.io/TNotes.vite/
+[TNotes.vitepress]: https://tnotesjs.github.io/TNotes.vitepress/
+[TNotes.vscode]: https://tnotesjs.github.io/TNotes.vscode/
+[TNotes.vue]: https://tnotesjs.github.io/TNotes.vue/
+[TNotes.webpack]: https://tnotesjs.github.io/TNotes.webpack/
 
 <!-- others link -->
